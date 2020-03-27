@@ -24,18 +24,21 @@ bl_info = {
 
 from . import create_material_ui
 from . import import_file
+from . import create_mat
 
 #auto_load.init()
 
 def register():
     create_material_ui.register()
     import_file.register()
+    create_mat.register()
 
 
 
 def unregister():
     create_material_ui.unregister()
     import_file.unregister()
+    create_mat.unregister()
 
 
 

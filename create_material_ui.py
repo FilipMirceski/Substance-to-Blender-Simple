@@ -24,9 +24,11 @@ class HelloWorldPanel(bpy.types.Panel):
         row = layout.row()
         row.operator("import_test.importfile", text="Import file test")
 
+        row = layout.row()
+        row.operator("object.createbsdf")
+
 
       
-
 
 def register():
     bpy.utils.register_class(HelloWorldPanel)
