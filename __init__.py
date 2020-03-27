@@ -22,17 +22,20 @@ bl_info = {
     "category" : "Generic"
 }
 
-
+from . import create_material_ui
+from . import import_file
 
 #auto_load.init()
 
 def register():
+    create_material_ui.register()
+    import_file.register()
 
 
- 
-    
 
 def unregister():
+    create_material_ui.unregister()
+    import_file.unregister()
 
 
 
