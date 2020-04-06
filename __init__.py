@@ -12,7 +12,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 bl_info = {
-    "name" : "Create Material",
+    "name" : "Substance to Blender Simple",
     "author" : "FKJ",
     "description" : "",
     "blender" : (2, 80, 0),
