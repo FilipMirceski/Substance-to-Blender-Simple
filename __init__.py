@@ -19,7 +19,7 @@ bl_info = {
     "version" : (0, 0, 1),
     "location" : "",
     "warning" : "",
-    "category" : "Generic"
+    "category" : "Material"
 }
 
 from . import create_material_ui
