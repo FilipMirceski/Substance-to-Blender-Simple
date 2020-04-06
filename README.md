@@ -1,10 +1,18 @@
 # Substance-to-Blender-Simple
 Substance to Blender Simple Add-on Final
 
-
-# Test Kristina Upload
-Upload prvi test
-
+Skripta za importovanje bitmapa i kreiranje materijala u programu Blender
+# Instalacija 
+1. Sa GitHub-a potrebno je skinuti Substance-to-Blender-Simple.zip arhivu
+2. Potrebno je ubaciti skriptu u program na sledeci nacin:
+- Iz menija Edit odabrati opciju Preferences
+- Iz iskakajuceg prozora odabrati Add-ons
+- Iz podmenija u Add-ons odabrati Install
+- Pronaci arhivu koja je prethodno skinuta sa GitHub-a i kliknuti dugme Install Add-on
+- Zatim je potrebno je cekirati opciju za aktivaciju Add-on-a
+# Koriscenje skripte
+1. Odabrati objekat sa scene i kliknuti dugme Create Principlet BSDF kako bi se kreirao materijal
+2. Ubaciti potrebne bitmape
 
 ![test slika](/images/01.png)
 
